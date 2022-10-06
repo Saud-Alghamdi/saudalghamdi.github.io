@@ -1,0 +1,132 @@
+.blog-page-container{
+    background-color: aliceblue;
+}
+
+.blog-page-container article{
+    padding: 50px;
+}
+
+.blog-page-container #blog-header{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 3rem;
+}
+
+
+/*-----------FIGURES/IMAGES----------- */
+
+/* Workout splits figure */
+.blog-page-container #workout-splits-figure {
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin: 3rem 0 3rem 3rem;
+}
+
+/* Chicken legs figure */
+.blog-page-container #chicken-legs-figure {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin: 3rem 0 3rem 3rem;
+}
+
+/* Cardio figure */
+.blog-page-container #cardio-figure {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin: 3rem 0 3rem 3rem;
+}
+
+/* Figcaptions */
+.blog-page-container figure figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+/* All images inside blogs */
+ .blog-page-container figure img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*-----------POSTER----------- */
+
+.blog-page-container .poster-div{
+    background-color: antiquewhite;
+    min-height: 300px;
+    width: auto;
+    max-width: 450px;
+    border: black solid thin;
+    border-radius: 10px;
+    display: grid;
+}
+
+.poster-div .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.blog-page-container .poster-div .avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.blog-page-container .poster-div .fa-instagram{
+    margin: 0 1rem;
+}
+
+.blog-page-container .poster-div .fa-brands{
+    color: black;
+    font-size: 20px;
+}
+
+
+/*-----------MEDIA QUERIES----------- */
+
+/*Screens 1024px and under*/
+@media (max-width: 1024px) {
+
+    .blog-page-container #workout-splits-figure, 
+    .blog-page-container #chicken-legs-figure,
+    .blog-page-container #cardio-figure{
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .blog-page-container .blog-paragraph{
+        margin-top: 3rem;
+    }
+}
+
+/*Screens 600px and under*/
+@media (max-width: 600px) {
+
+    .blog-page-container article{
+        padding: 20px;
+    }
+
+    .blog-page-container #blog-header{
+        font-size: 32px;
+    }
+
+    .blog-page-container #workout-splits-figure{
+        height: 270px;
+        width: 270px;
+    }
+
+    .blog-page-container #chicken-legs-figure, 
+    .blog-page-container #cardio-figure{
+        height: 170px;
+        width: 270px;
+    }
+}
