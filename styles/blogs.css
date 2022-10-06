@@ -65,7 +65,7 @@
     display: grid;
 }
 
-.poster-div .row {
+.blog-page-container .poster-div .row {
     display: flex;
     justify-content: center;
     align-items: center;

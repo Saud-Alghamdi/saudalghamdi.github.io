@@ -2,7 +2,7 @@
 
 /*------NAVBAR & HEADER------*/
 
-.navbar{
+.index-page-container .navbar{
     height: 8vh;
     width: 100vw;
     position: fixed;
@@ -12,12 +12,12 @@
     align-items: center;
 }
 
-.nav-item {
+.index-page-container .nav-item {
     text-decoration: none;
     color: white;
 }
 
-.nav-item:hover {
+.index-page-container .nav-item:hover {
     color: red;
 }
 
@@ -150,12 +150,12 @@
 /* screens 769px and above */
 @media (min-width: 769px){
 
-    .navbar{
+    .index-page-container .navbar{
         height: 10vh;
         justify-content: center;
     }
 
-    .nav-item:nth-child(2) {
+    .index-page-container .nav-item:nth-child(2) {
         margin: 0 5rem;
     }
 
